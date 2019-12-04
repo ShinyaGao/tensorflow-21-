@@ -57,7 +57,7 @@ def main(_):
             saver.restore(sess, FLAGS.model_file)
 
             # Make sure 'generated' directory exists.
-            generated_file = 'generated/res.jpg'
+            generated_file = 'generated/gxy_denoised_starry.jpg'
             if os.path.exists('generated') is False:
                 os.makedirs('generated')
 
